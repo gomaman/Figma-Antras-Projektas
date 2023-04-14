@@ -147,8 +147,10 @@ p.section-text-style {
     padding-bottom: 16px;
 }
 
-section.call-to-action-page {
+
+.call-to-action-page .background-color-fill {
     background: linear-gradient(0.25turn, rgb(255 57 57 / 72%), rgb(255 57 118), rgb(255 143 57 / 79%));
+    padding-top: 110px;
 }
 
 
@@ -187,18 +189,92 @@ span.via-link {
     text-decoration: underline;
 }
 
+.CTA-wrapper.background-color-fill {
+    display: flex;
+    padding-top: 75px;
+    flex-direction: column;
+}
+
+.partner-list-page .container {
+    padding-top: 72px;
+}
+
+.hero-page .container {
+    padding-bottom:72px;
+}
+
+.product-card-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card {
+    padding-top: 36px;
+    padding-right: 30px;
+}
+
+.product-card-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product-card {
+    padding-top: 36px;
+    padding-right: 30px;
+}
+
+.product-description-wrap {
+    background-color:rgba(238, 238, 238, 1);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
 
+img {
+    display: block;
+}
+
+.product-series-padding {
+    padding:5px 0px;
+}
+
+.product-description-name {
+    padding: 10px 0px;
+}
+
+.product-description-cost {
+    padding: 10px 0px;
+}
+
+span.product-series-style {font-size: 12px;}
+
+.product-name.dark1.product-series-padding {
+    font-size: 20px;
+}
+
+span.prduct-bid-style {
+    font-size: 12px;
+}
+
+span.product-cost-style {
+    font-size: 20px;
+}
+
+span.product-timer-style {
+    font-size: 18px;
+}
 
 
+.hero-page-wrapper {
+    width:50%;
+}
 
-
-
-
-
-
-
-
+.hero-page-wrapper .main-button {
+    width:100%;
+}
 
 
 
