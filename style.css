@@ -1,3 +1,5 @@
+/* colors */
+
 .dark1 {
     color:black;
 }
@@ -53,9 +55,126 @@
 }
 
 
+/* resets */
+
 *, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
 }
+
+/* backgrounds */
+
+.background-image-1 {
+    position:relative;
+}
+
+.background-image-1::after {
+    content: url(./images/background-pictures/top-hero-image.svg);
+    position:absolute;
+    left: 260px;
+    bottom:10px;
+    display: none;
+}
+
+/* mobile styles */
+
+.container {
+    padding:36px 32px;
+}
+
+.navigation-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-list {
+    display: none;
+}
+
+.launch-date.pink {
+    padding-bottom: 24px;
+}
+
+.page-title.dark1 {
+    padding-bottom: 24px;
+}
+
+.page-text.dark2 {
+    padding-bottom: 24px;
+}
+
+span.launch-date-style {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h1.page-title-style-h1 {
+    font-size: 48px;
+}
+
+p.page-text-style {
+    font-size: 20px;
+}
+
+a.main-button-style {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.main-button {
+    border: 3px solid ;
+    border-radius: 40px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* small tablet styles */
+@media screen and (min-width:620px) {
+
+}
+
+
+
+/* large tables & laptop styles */
+@media screen and (min-width:960px) {
+
+}
+
+
+
+/* desktop styles */
+@media screen and (min-width:1200px) {
+
+}
+
 
