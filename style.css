@@ -65,21 +65,32 @@
     list-style: none;
 }
 
-/* backgrounds */
+
+.product-card-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    overflow: overlay;
+}
+
+/* mobile styles */
 
 .background-image-1 {
     position:relative;
 }
 
+
 .background-image-1::after {
-    content: url(./images/background-pictures/top-hero-image.svg);
-    position:absolute;
-    left: 260px;
-    bottom:10px;
-    display: none;
+    content: "";
+    background-image: url(./images/background-pictures/top-hero-monster.png);
+    position: absolute;
+    background-size: 150px 238px;
+    background-repeat: no-repeat;
+    top: 10px;
+    height: 100%;
+    width: 100%;
 }
 
-/* mobile styles */
 
 .container {
     padding:36px 32px;
@@ -216,6 +227,7 @@ span.via-link {
 .product-card-list {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
 }
 
 .product-card {
@@ -274,6 +286,14 @@ span.product-timer-style {
 
 .hero-page-wrapper .main-button {
     width:100%;
+}
+
+.hero-page-wrapper {
+    width: 71%;
+}
+
+.hero-page-wrapper .main-button {
+    width: 71%;
 }
 
 
