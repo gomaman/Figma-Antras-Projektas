@@ -135,9 +135,57 @@ a.main-button-style {
     padding: 20px;
 }
 
+span.section-title-style {
+    font-size: 40px;
+}
+
+p.section-text-style {
+    font-size: 20px;
+}
+
+.section-title.dark1 {
+    padding-bottom: 16px;
+}
+
+section.call-to-action-page {
+    background: linear-gradient(0.25turn, rgb(255 57 57 / 72%), rgb(255 57 118), rgb(255 143 57 / 79%));
+}
 
 
+.partner-list-wrapper ul {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
 
+
+span.partner-name-style {
+    font-size: 36px;
+}
+
+
+li.partner {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.partner-logo.dark4 {
+    padding-right: 10px;
+}
+
+.partner.hide-mobile-part {
+    display: none;
+}
+
+span.hide-mobile-part {
+    display: none;
+}
+
+span.via-link {
+    text-decoration: underline;
+}
 
 
 
