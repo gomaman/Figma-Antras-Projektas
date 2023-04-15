@@ -80,16 +80,19 @@
 }
 
 
-.background-image-1::after {
+/* .background-image-1::after {
     content: "";
     background-image: url(./images/background-pictures/top-hero-monster.png);
     position: absolute;
-    background-size: 150px 238px;
+    background-size: 50%;
     background-repeat: no-repeat;
-    top: 10px;
+    top: 5px;
+    left: 338px;
     height: 100%;
     width: 100%;
-}
+} */
+
+
 
 
 .container {
@@ -281,21 +284,13 @@ span.product-timer-style {
 
 
 .hero-page-wrapper {
-    width:50%;
+    width: 80%;
+    
 }
 
 .hero-page-wrapper .main-button {
-    width:100%;
+    width: 60%;
 }
-
-.hero-page-wrapper {
-    width: 71%;
-}
-
-.hero-page-wrapper .main-button {
-    width: 71%;
-}
-
 
 
 
