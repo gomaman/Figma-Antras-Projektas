@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
 /* colors */
 
 .dark1 {
@@ -63,6 +66,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+    font-family: 'Inter', sans-serif;
 }
 
 
@@ -75,34 +79,29 @@
 
 /* mobile styles */
 
+
+/* wrappers */
+
+
+
 .background-image-1 {
     position:relative;
 }
 
 
-/* .background-image-1::after {
-    content: "";
-    background-image: url(./images/background-pictures/top-hero-monster.png);
-    position: absolute;
-    background-size: 50%;
-    background-repeat: no-repeat;
-    top: 5px;
-    left: 338px;
-    height: 100%;
-    width: 100%;
-} */
 
 
 
 
 .container {
-    padding:36px 32px;
+    padding: 36px 0px 36px 36px;
 }
 
 .navigation-wrap {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-right: 36px;
 }
 
 .navigation-list {
@@ -128,6 +127,8 @@ span.launch-date-style {
 
 h1.page-title-style-h1 {
     font-size: 48px;
+    font-weight: 900;
+    font-family: 'Inter', sans-serif;
 }
 
 p.page-text-style {
@@ -176,8 +177,17 @@ p.section-text-style {
 }
 
 
-span.partner-name-style {
+
+span.partner-name-big {
     font-size: 36px;
+}
+
+span.partner-name-small {
+    font-size:30px;
+}
+
+.partner-name {
+    margin:auto;
 }
 
 
@@ -187,9 +197,6 @@ li.partner {
     align-items: center;
 }
 
-.partner-logo.dark4 {
-    padding-right: 10px;
-}
 
 .partner.hide-mobile-part {
     display: none;
@@ -284,9 +291,31 @@ span.product-timer-style {
 
 
 .hero-page-wrapper {
-    width: 80%;
-    
+    display: flex;
 }
+
+.hero-content {
+    width: 80%;
+    position:relative;
+}
+
+.hero-image {
+    left: -65px;
+    position: relative;
+    width: 30%;
+    top: -45px;
+}
+
+.hero-image-content {
+    position: absolute;
+    height:100%;
+    object-fit: contain;
+}
+
+.hero-image-content img {
+
+}
+
 
 .hero-page-wrapper .main-button {
     width: 60%;
@@ -301,9 +330,6 @@ li.social-icon {
     padding-right: 15px;
 }
 
-.navigation-logo {
-    padding-bottom: 30px;
-}
 
 .footer-description.dark2 {
     padding-bottom: 30px;
