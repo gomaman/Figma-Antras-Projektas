@@ -152,6 +152,7 @@ a.main-button-style {
 
 span.section-title-style {
     font-size: 40px;
+    font-weight: 500;
 }
 
 p.section-text-style {
@@ -218,6 +219,7 @@ span.via-link {
 
 .partner-list-page .container {
     padding-top: 72px;
+    padding-right: 30px;
 }
 
 .hero-page .container {
@@ -295,8 +297,7 @@ span.product-timer-style {
 }
 
 .hero-content {
-    width: 80%;
-    position:relative;
+    width: 70%;
 }
 
 .hero-image {
@@ -312,14 +313,28 @@ span.product-timer-style {
     object-fit: contain;
 }
 
-.hero-image-content img {
-
-}
-
 
 .hero-page-wrapper .main-button {
-    width: 60%;
+    width: 100%;
 }
+
+.left-side {
+    width:60%;
+}
+
+.right-side {
+    display: flex;
+    width: 40%;
+    align-items: flex-end;
+}
+.right-side img {
+    height: 90%;
+}
+
+.footer-title .navigational-logo {
+    padding-bottom: 30px;
+}
+
 
 
 /* footer */
