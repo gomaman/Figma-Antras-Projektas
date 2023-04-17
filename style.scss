@@ -1,4 +1,4 @@
-
+@use '/scss/variables/colors';
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
 
 /* colors */
@@ -23,9 +23,9 @@ $color-red:rgba(255, 57, 57, 1);
 $light-color-orange:rgba(255, 240, 232, 1);
 $light-color-green:rgba(237, 255, 246, 1);
 
-$padding-bottom-s:padding-bottom:10px;
-$padding-bottom-m:padding-bottom:20px;
-$padding-bottom-l:padding-bottom:30px;
+$padding-bottom-s:padding-bottom 10px;
+$padding-bottom-m:padding-bottom 20px;
+$padding-bottom-l:padding-bottom 30px;
 
 
 
@@ -126,7 +126,22 @@ span.via-link {
     justify-content: space-between;
     align-items: center;
     padding-right: 36px;
+
+    .navigation-list {
+        display: none;
+    
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .navigation-logo {
+        padding-bottom: 30px; 
+    }
 }
+
+
+
 
 .product-description-wrap {
     background-color:rgba(238, 238, 238, 1);
@@ -208,11 +223,6 @@ img {
     }
 }
 
-.hero-page  {
-    .container {
-    padding-bottom:72px;
-    }
-}
 
 .footer-main  {
     .container {
@@ -243,16 +253,9 @@ img {
 
 /* lists */
 
-.navigation-list {
-    display: none;
 
-    a {
-        text-decoration: none;
-    }
-}
 
 .partner-list-wrapper {
-
     ul {
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -260,6 +263,7 @@ img {
     gap: 20px;
     justify-items: center;
 }
+
 }
 
 
@@ -346,17 +350,18 @@ li.social-icon {
 }
 
 
-
+.footer-description {
+    padding-bottom:20px;
+}
 
 
 .footer-title {
     padding-bottom: 20px;
 
-    .navigation-logo {
-    padding-bottom: 30px; 
-}
-    .footer-description.dark2 {
+    
+    .footer-description span {
     padding-bottom: 30px;
+    color:$dark_2;
 }
     .footer-social-media.dark4 {
     padding-bottom: 30px;
