@@ -1,9 +1,7 @@
-.light-orange {
-  color: rgb(255, 240, 232);
-}
-
-.light-green {
-  color: rgb(237, 255, 246);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
+/* colors */
+.dark1 {
+  color: black;
 }
 
 .dark2 {
@@ -46,6 +44,15 @@
   color: rgb(255, 57, 57);
 }
 
+.light-orange {
+  color: rgb(255, 240, 232);
+}
+
+.light-green {
+  color: rgb(237, 255, 246);
+}
+
+/* resets */
 *, *::after, *::before {
   margin: 0;
   padding: 0;
@@ -93,10 +100,10 @@ span.via-link {
   text-decoration: none;
 }
 .navigation-wrap .navigation-list .navigation-item a {
-  color: rgb(80, 80, 80);
+  color: rgb(85, 85, 85);
 }
 .navigation-wrap .navigation-list .navigation-signup a {
-  color: rgb(173, 72, 168);
+  color: rgb(255, 57, 152);
 }
 .navigation-wrap .navigation-logo {
   padding-bottom: 30px;
@@ -282,7 +289,7 @@ li.social-icon {
 .footer-title .footer-description {
   padding-bottom: 20px;
   padding-top: 20px;
-  color: rgb(80, 80, 80);
+  color: rgb(85, 85, 85);
 }
 .footer-title .footer-social-media {
   padding-bottom: 20px;
@@ -291,7 +298,7 @@ li.social-icon {
 
 .footer-list-title {
   padding-bottom: 10px;
-  color: rgb(80, 80, 80);
+  color: rgb(85, 85, 85);
 }
 
 .hero-page {
@@ -316,7 +323,7 @@ a.main-button-style {
 
 /* fonts  */
 .footer-description {
-  color: rgb(80, 80, 80);
+  color: rgb(85, 85, 85);
 }
 .footer-description span {
   font-size: 20px;
@@ -353,7 +360,7 @@ span.product-timer-style {
 span.launch-date-style {
   font-size: 16px;
   font-weight: bold;
-  color: rgb(173, 72, 168);
+  color: rgb(255, 57, 152);
 }
 
 h1.page-title-style-h1 {
@@ -364,7 +371,7 @@ h1.page-title-style-h1 {
 
 p.page-text-style {
   font-size: 20px;
-  color: rgb(80, 80, 80);
+  color: rgb(85, 85, 85);
 }
 
 span.section-title-style {

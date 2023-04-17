@@ -1,5 +1,14 @@
+
+.light-orange  {
+    color:rgba(255, 240, 232, 1);
+}
+
+.light-green {
+    color:rgba(237, 255, 246, 1);
+}
+
 $dark_1:black;
-$dark_2:rgba(85, 85, 85, 1);
+$dark_2:rgb(80, 80, 80);
 $dark_3:rgba(119, 119, 119, 1);
 $dark_4:rgba(153, 153, 153, 1);
 
@@ -8,13 +17,52 @@ $light_2:rgba(238, 238, 238, 1);
 $light_3:rgba(204, 204, 204, 1);
 
 $color-orange:rgba(255, 129, 57, 1);
-$color-pink:rgba(255, 57, 152, 1);
+$color-pink:rgb(173, 72, 168);
 $color-green:rgba(57, 255, 160, 1);
 $color-red:rgba(255, 57, 57, 1);
 
 $light-color-orange:rgba(255, 240, 232, 1);
 $light-color-green:rgba(237, 255, 246, 1);
 
-$padding-bottom-s:padding-bottom 10px;
-$padding-bottom-m:padding-bottom 20px;
-$padding-bottom-l:padding-bottom 30px;
+
+
+.dark2 {
+    color:rgba(85, 85, 85, 1);
+}
+
+.dark3 {
+    color:rgba(119, 119, 119, 1);
+}
+
+.dark4 {
+    color:rgba(153, 153, 153, 1);
+}
+
+.light1 {
+    color:rgba(255, 255, 255, 1);
+}
+
+.light2 {
+    color:rgba(238, 238, 238, 1);
+}
+
+.light3 {
+    color:rgba(204, 204, 204, 1);
+}
+
+.orange {
+    color:rgba(255, 129, 57, 1);
+}
+
+
+.pink {
+    color:rgba(255, 57, 152, 1);
+}
+
+.green {
+    color:rgba(57, 255, 160, 1);
+}
+
+.red {
+    color:rgba(255, 57, 57, 1);
+}
