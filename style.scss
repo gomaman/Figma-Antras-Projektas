@@ -1,4 +1,4 @@
-@use '/scss/variables/colors';
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
 
 /* colors */
@@ -23,9 +23,10 @@ $color-red:rgba(255, 57, 57, 1);
 $light-color-orange:rgba(255, 240, 232, 1);
 $light-color-green:rgba(237, 255, 246, 1);
 
-$padding-bottom-s:padding-bottom 10px;
-$padding-bottom-m:padding-bottom 20px;
-$padding-bottom-l:padding-bottom 30px;
+$padding-s:10px;
+$padding-m:20px;
+$padding-l:30px;
+$padding-xl:36px;
 
 
 
@@ -125,7 +126,7 @@ span.via-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 36px;
+    padding-right: $padding-xl;
 
     .navigation-list {
         display: none;
@@ -136,7 +137,7 @@ span.via-link {
     }
 
     .navigation-logo {
-        padding-bottom: 30px; 
+        padding-bottom: $padding-l; 
     }
 }
 
@@ -168,7 +169,7 @@ span.via-link {
 }
 
 .CTA-wrapper {
-    padding-right:36px;
+    padding-right:$padding-xl;
 }
 
 .CTA-wrapper.background-color-fill {
@@ -213,13 +214,13 @@ img {
 /* containers */
 
 .container {
-    padding: 36px 0px 36px 36px;
+    padding: $padding-xl 0px $padding-xl $padding-xl;
 }
 
 .partner-list-page  {
     .container {
     padding-top: 72px;
-    padding-right: 30px;
+    padding-right: $padding-l;
     }
 }
 
@@ -312,7 +313,7 @@ li.partner {
 
 li.footer-list-item {
     font-size: 20px;
-    padding-bottom: 10px;
+    padding-bottom: $padding-s;
 }
 
 
@@ -325,8 +326,8 @@ li.social-icon {
 
 
 .product-card {
-    padding-top: 36px;
-    padding-right: 30px;
+    padding-top: $padding-xl;
+    padding-right: $padding-l;
 }
 
 .product-series-padding {
@@ -338,11 +339,11 @@ li.social-icon {
 }
 
 .product-description-name {
-    padding: 10px 0px;
+    padding: $padding-s 0px;
 }
 
 .product-description-cost {
-    padding: 10px 0px;
+    padding: $padding-s 0px;
 }
 
 .partner-name {
@@ -350,38 +351,28 @@ li.social-icon {
 }
 
 
-.footer-description {
-    padding-bottom:20px;
-}
-
 
 .footer-title {
-    padding-bottom: 20px;
+    padding-bottom: $padding-m;
 
-    
-    .footer-description span {
-    padding-bottom: 30px;
+    .footer-description{
+    padding-bottom: $padding-m;
+    padding-top:    $padding-m;
     color:$dark_2;
 }
     .footer-social-media.dark4 {
-    padding-bottom: 30px;
+    padding-bottom: $padding-m;
 }
 }
 
 .footer-list-title.dark2 {
-    padding-bottom: 20px;
+    padding-bottom: $padding-s;
 }
 
 
 .hero-page {
     padding-top: 50px;
 }
-
-
-
-
-
-
 
 
 /* buttons */
@@ -394,7 +385,7 @@ li.social-icon {
     width: 50%;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: $padding-m;
 }
 
 a.main-button-style {
@@ -431,7 +422,7 @@ span.product-series-style {
 
 
 span.prduct-bid-style {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 span.product-cost-style {
@@ -469,7 +460,7 @@ p.section-text-style {
 span.footer-list-title-style {
     font-size: 16px;
     font-weight: bold;
-    padding-bottom:10px;
+    padding-bottom:$padding-s;
 }
 
 
@@ -552,7 +543,7 @@ span.footer-list-title-style {
         font-size: 90px;
     }
 
-    .navigation-list{
+    .container .navigation-wrap .navigation-list{
         display: inline-block;
     }
 
@@ -567,16 +558,16 @@ span.footer-list-title-style {
     }
         
     .call-to-action-page .container {
-        padding: 36px 0px 36px 36px;
+        padding: $padding-xl 0px $padding-xl $padding-xl;
         padding-top: 110px;
     }
 
     .hero-page-top .container {
-        padding: 100px 0px 150px 36px;
+        padding: 100px 0px 150px $padding-xl;
     }
 
     .partner-list-page .container {
-        padding: 100px 36px 100px 36px;
+        padding: 100px $padding-xl 100px $padding-xl;
     }
     
 }
