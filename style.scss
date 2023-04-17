@@ -1,7 +1,9 @@
-@use './scss/variables/colors';
+@use 'scss/variables/colors';
 @use './scss/variables/spacing';
 @use './scss/variables/resets';
-
+@use './scss/elements/span';
+@use './scss/variables/fonts';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
 
 .product-card-list {
     display: flex;
@@ -15,6 +17,9 @@
     display: none;
 }
 
+
+
+
 span.hide-mobile-part {
     display: none;
 }
@@ -23,9 +28,48 @@ span.via-link {
     text-decoration: underline;
 }
 
+span.partner-name-big {
+    font-size: 36px;
+}
+
+span.partner-name-small {
+    font-size:30px;
+}
+
+span.product-series-style {
+    font-size: 12px;
+}
+span.prduct-bid-style {
+    font-size: 10px;
+}
+
+span.product-cost-style {
+    font-size: 20px;
+}
+
+span.product-timer-style {
+    font-size: 18px;
+}
+
+span.launch-date-style {
+    font-size: 16px;
+    font-weight: bold;
+    color:colors.$color-pink;
+}
+
+span.section-title-style {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+span.footer-list-title-style {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom:spacing.$padding-s;
+}
 
 
-/* wrappers */
+
 
 .navigation-wrap {
 
@@ -55,6 +99,8 @@ span.via-link {
         padding-bottom: spacing.$padding-l; 
     }
 }
+
+
 
 
 
@@ -227,7 +273,7 @@ li.partner {
 }
 
 li.footer-list-item {
-    font-size: 20px;
+    font-size: fonts.$font-m;
     padding-bottom: spacing.$padding-s;
 }
 
@@ -250,7 +296,7 @@ li.social-icon {
 }
 
 .product-name.product-series-padding {
-    font-size: 20px;
+    font-size: fonts.$font-m;
 }
 
 .product-description-name {
@@ -309,7 +355,7 @@ li.social-icon {
 }
 
 a.main-button-style {
-    font-size: 20px;
+    font-size: fonts.$font-m;
     color: black;
     font-weight: bold;
 }
@@ -320,46 +366,19 @@ a.main-button-style {
     color:colors.$dark_2;
 
     span {
-        font-size: 20px;
+        font-size: fonts.$font-m;
     }
     
 }
 
 .footer-copyright-style {
-    font-size:20px;
-}
-
-span.partner-name-big {
-    font-size: 36px;
-}
-
-span.partner-name-small {
-    font-size:30px;
-}
-
-span.product-series-style {
-    font-size: 12px;
+    font-size: fonts.$font-m;
 }
 
 
 
-span.prduct-bid-style {
-    font-size: 10px;
-}
 
-span.product-cost-style {
-    font-size: 20px;
-}
 
-span.product-timer-style {
-    font-size: 18px;
-}
-
-span.launch-date-style {
-    font-size: 16px;
-    font-weight: bold;
-    color:colors.$color-pink;
-}
 
 h1.page-title-style-h1 {
     font-size: 48px;
@@ -368,24 +387,17 @@ h1.page-title-style-h1 {
 }
 
 p.page-text-style {
-    font-size: 20px;
+    font-size: fonts.$font-m;
     color:colors.$dark_2;
 }
 
-span.section-title-style {
-    font-size: 40px;
-    font-weight: 500;
-}
+
 
 p.section-text-style {
-    font-size: 20px;
+    font-size: fonts.$font-m;
 }
 
-span.footer-list-title-style {
-    font-size: 16px;
-    font-weight: bold;
-    padding-bottom:spacing.$padding-s;
-}
+
 
 
 .partner-name {
@@ -411,7 +423,7 @@ span.footer-list-title-style {
 /* small tablet styles */
 @media screen and (min-width:615px) {
     h1.page-title-style-h1 {
-        font-size:70px;
+        font-size: fonts.$font-xxl;
     }
 
     .right-side {
@@ -464,7 +476,7 @@ span.footer-list-title-style {
     }
 
     h1.page-title-style-h1 {
-        font-size: 90px;
+        font-size: fonts.$font-xxl;
     }
 
     .container .navigation-wrap .navigation-list{
@@ -522,7 +534,7 @@ span.footer-list-title-style {
 
     .partner.hide-mobile-part {
         display:flex;
-        font-size:36px;
+        font-size: fonts.$font-l;
     }
 
 

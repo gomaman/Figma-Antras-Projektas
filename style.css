@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap");
 .light-orange {
   color: rgb(255, 240, 232);
 }
@@ -79,7 +80,47 @@ span.via-link {
   text-decoration: underline;
 }
 
-/* wrappers */
+span.partner-name-big {
+  font-size: 36px;
+}
+
+span.partner-name-small {
+  font-size: 30px;
+}
+
+span.product-series-style {
+  font-size: 12px;
+}
+
+span.prduct-bid-style {
+  font-size: 10px;
+}
+
+span.product-cost-style {
+  font-size: 20px;
+}
+
+span.product-timer-style {
+  font-size: 18px;
+}
+
+span.launch-date-style {
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(207, 57, 200);
+}
+
+span.section-title-style {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+span.footer-list-title-style {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
 .navigation-wrap {
   display: flex;
   justify-content: space-between;
@@ -96,7 +137,7 @@ span.via-link {
   color: rgb(80, 80, 80);
 }
 .navigation-wrap .navigation-list .navigation-signup a {
-  color: rgb(173, 72, 168);
+  color: rgb(207, 57, 200);
 }
 .navigation-wrap .navigation-logo {
   padding-bottom: 30px;
@@ -326,36 +367,6 @@ a.main-button-style {
   font-size: 20px;
 }
 
-span.partner-name-big {
-  font-size: 36px;
-}
-
-span.partner-name-small {
-  font-size: 30px;
-}
-
-span.product-series-style {
-  font-size: 12px;
-}
-
-span.prduct-bid-style {
-  font-size: 10px;
-}
-
-span.product-cost-style {
-  font-size: 20px;
-}
-
-span.product-timer-style {
-  font-size: 18px;
-}
-
-span.launch-date-style {
-  font-size: 16px;
-  font-weight: bold;
-  color: rgb(173, 72, 168);
-}
-
 h1.page-title-style-h1 {
   font-size: 48px;
   font-weight: 900;
@@ -367,19 +378,8 @@ p.page-text-style {
   color: rgb(80, 80, 80);
 }
 
-span.section-title-style {
-  font-size: 40px;
-  font-weight: 500;
-}
-
 p.section-text-style {
   font-size: 20px;
-}
-
-span.footer-list-title-style {
-  font-size: 16px;
-  font-weight: bold;
-  padding-bottom: 10px;
 }
 
 .partner-name {
@@ -398,7 +398,7 @@ span.footer-list-title-style {
 /* small tablet styles */
 @media screen and (min-width: 615px) {
   h1.page-title-style-h1 {
-    font-size: 70px;
+    font-size: 90px;
   }
   .right-side {
     width: 30%;
