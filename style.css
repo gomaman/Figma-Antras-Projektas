@@ -259,6 +259,10 @@ li.social-icon {
   padding: 5px 0px;
 }
 
+.product-name.dark1.product-series-padding {
+  font-size: 20px;
+}
+
 .product-description-name {
   padding: 10px 0px;
 }
@@ -277,21 +281,19 @@ li.social-icon {
 .footer-title .navigation-logo {
   padding-bottom: 30px;
 }
-
-.hero-page {
-  padding-top: 50px;
-}
-
-.footer-description.dark2 {
+.footer-title .footer-description.dark2 {
   padding-bottom: 30px;
 }
-
-.footer-social-media.dark4 {
+.footer-title .footer-social-media.dark4 {
   padding-bottom: 30px;
 }
 
 .footer-list-title.dark2 {
   padding-bottom: 20px;
+}
+
+.hero-page {
+  padding-top: 50px;
 }
 
 /* buttons */
@@ -329,10 +331,6 @@ span.partner-name-small {
 
 span.product-series-style {
   font-size: 12px;
-}
-
-.product-name.dark1.product-series-padding {
-  font-size: 20px;
 }
 
 span.prduct-bid-style {
