@@ -390,15 +390,14 @@ p.section-text-style {
   display: none;
 }
 
-@media screen and (min-width: 495px) {
+@media (min-width: 495px) {
   h1.page-title-style-h1 {
     font-size: 55px;
   }
 }
-/* small tablet styles */
-@media screen and (min-width: 615px) {
+@media (min-width: 615px) {
   h1.page-title-style-h1 {
-    font-size: 90px;
+    font-size: 60px;
   }
   .right-side {
     width: 30%;
@@ -414,7 +413,7 @@ p.section-text-style {
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 800px) {
+@media (min-width: 800px) {
   .partner-list-wrapper ul {
     display: flex;
     justify-content: space-between;
@@ -430,13 +429,13 @@ p.section-text-style {
     justify-content: space-between;
   }
 }
-/* large tables & laptop styles */
-@media screen and (min-width: 960px) {
+@media (min-width: 960px) {
   .monster-top .monster-img {
     height: 100%;
+    overflow: hidden;
   }
   h1.page-title-style-h1 {
-    font-size: 90px;
+    font-size: 60px;
   }
   .container .navigation-wrap .navigation-list {
     display: inline-block;
@@ -444,6 +443,16 @@ p.section-text-style {
   .navigation-list ul {
     display: flex;
     gap: 50px;
+  }
+  .hero-page-wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  .top .left-side {
+    width: 50%;
+    display: flex;
+    row-gap: 30px;
+    flex-direction: column;
   }
   .navigation-burger {
     display: none;
@@ -458,9 +467,12 @@ p.section-text-style {
   .partner-list-page .container {
     padding: 100px 36px 100px 36px;
   }
+  .partner.hide-mobile-part {
+    display: flex;
+    font-size: 36px;
+  }
 }
-/* desktop styles */
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
   .footer-list {
     gap: 100px;
   }
@@ -476,9 +488,5 @@ p.section-text-style {
   }
   .call-to-action-page .background-color-fill {
     border-radius: 20px;
-  }
-  .partner.hide-mobile-part {
-    display: flex;
-    font-size: 36px;
   }
 }/*# sourceMappingURL=style.css.map */
