@@ -8,28 +8,28 @@ $l-screen: 1200px;
 
 
 @mixin xxs-size {
-    @media (min-width:495px) {
+    @media (min-width:$xxs-screen) {
         @content;
     }
 }
 
 @mixin xs-size {
-    @media (min-width:615px) {
+    @media (min-width:$xs-screen) {
         @content;
     }
 }
 @mixin s-size {
-    @media (min-width:800px) {
+    @media (min-width:$s-screen) {
         @content;
     }
 }
 @mixin m-size {
-    @media (min-width:960px) {
+    @media (min-width:$m-screen) {
         @content;
     }
 }
 @mixin l-size {
-    @media (min-width:1200px) {
+    @media (min-width:$l-screen) {
         @content;
     }
 }

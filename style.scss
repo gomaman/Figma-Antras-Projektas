@@ -13,13 +13,9 @@
     overflow: hidden;
 }
 
-
 .partner.hide-mobile-part {
     display: none;
 }
-
-
-
 
 span.hide-mobile-part {
     display: none;
@@ -69,9 +65,6 @@ span.footer-list-title-style {
     padding-bottom:spacing.$padding-s;
 }
 
-
-
-
 .navigation-wrap {
 
     display: flex;
@@ -119,7 +112,6 @@ span.footer-list-title-style {
     }
 }
 
-
 .footer-list-wrap {
     display: flex;
     flex-direction: column;
@@ -135,8 +127,6 @@ span.footer-list-title-style {
     flex-direction: column;
 }
 
-
-/* images */
 .background-image-1 {
     position:relative;
 }
@@ -159,7 +149,6 @@ img {
     top: -45px;
 }
 
-
 .call-to-action-page  {
 
     .background-color-fill {
@@ -167,8 +156,6 @@ img {
     padding-top: 110px;
     }
 }
-
-/* containers */
 
 .container {
     padding: spacing.$padding-xl 0px spacing.$padding-xl spacing.$padding-xl;
@@ -209,10 +196,6 @@ img {
     position: relative;
 }
 
-/* lists */
-
-
-
 .partner-list-wrapper {
     ul {
     display: grid;
@@ -223,8 +206,6 @@ img {
 }
 
 }
-
-
 
 .footer-list {
     display: grid;
@@ -260,8 +241,6 @@ img {
     }   
 }
 
-
-
 li.partner {
     display: flex;
     flex-direction: row;
@@ -273,14 +252,9 @@ li.footer-list-item {
     padding-bottom: spacing.$padding-s;
 }
 
-
 li.social-icon {
     padding-right: 15px;
 }
-
-/* paddings-margins */
-
-
 
 .product-card {
     padding-top: spacing.$padding-xl;
@@ -311,7 +285,6 @@ li.social-icon {
     color:colors.$dark_1;
 }
 
-
 .footer-title {
     padding-bottom: spacing.$padding-m;
 
@@ -336,11 +309,6 @@ li.social-icon {
     padding-top: 50px;
 }
 
-
-/* buttons */
-
-
-
 .main-button {
     border: 3px solid ;
     border-radius: 40px;
@@ -356,25 +324,17 @@ a.main-button-style {
     font-weight: bold;
 }
 
-/* fonts  */
-
 .footer-description {
     color:colors.$dark_2;
 
     span {
         font-size: fonts.$font-m;
     }
-    
 }
 
 .footer-copyright-style {
     font-size: fonts.$font-m;
 }
-
-
-
-
-
 
 h1.page-title-style-h1 {
     font-size: 48px;
@@ -387,24 +347,18 @@ p.page-text-style {
     color:colors.$dark_2;
 }
 
-
-
 p.section-text-style {
     font-size: fonts.$font-m;
 }
-
-
-
 
 .partner-name {
     margin-left: 15px;
 }
 
-
-
 .footer-copyright.dark4.hide-mobile-part {
     display: none;
 }
+
 
 
 
@@ -414,7 +368,6 @@ p.section-text-style {
         font-size: 55px;
     }
 }
-
 
 @include breakpoints.xs-size {
 // @media screen and (min-width:615px) {
@@ -462,7 +415,7 @@ p.section-text-style {
     }
 }
 
-    @include breakpoints.m-size {
+@include breakpoints.m-size {
 
     .monster-top .monster-img {
         height: 100%;
