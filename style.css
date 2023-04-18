@@ -139,9 +139,6 @@ span.footer-list-title-style {
 .navigation-wrap .navigation-list .navigation-signup a {
   color: rgb(207, 57, 200);
 }
-.navigation-wrap .navigation-logo {
-  padding-bottom: 30px;
-}
 
 .product-description-wrap {
   background-color: rgb(238, 238, 238);
@@ -175,7 +172,6 @@ span.footer-list-title-style {
   flex-direction: column;
 }
 
-/* images */
 .background-image-1 {
   position: relative;
 }
@@ -201,7 +197,6 @@ img {
   padding-top: 110px;
 }
 
-/* containers */
 .container {
   padding: 36px 0px 36px 36px;
 }
@@ -234,7 +229,6 @@ img {
   position: relative;
 }
 
-/* lists */
 .partner-list-wrapper ul {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -287,7 +281,6 @@ li.social-icon {
   padding-right: 15px;
 }
 
-/* paddings-margins */
 .product-card {
   padding-top: 36px;
   padding-right: 30px;
@@ -339,7 +332,6 @@ li.social-icon {
   padding-top: 50px;
 }
 
-/* buttons */
 .main-button {
   border: 3px solid;
   border-radius: 40px;
@@ -355,7 +347,6 @@ a.main-button-style {
   font-weight: bold;
 }
 
-/* fonts  */
 .footer-description {
   color: rgb(80, 80, 80);
 }
